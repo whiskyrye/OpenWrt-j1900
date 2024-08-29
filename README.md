@@ -1,26 +1,47 @@
-**English** | [中文](https://p3terx.com/archives/build-openwrt-with-github-actions.html)
+**J1900-OPENWRT固件**
 
-# Actions-OpenWrt
+访问：192.168.1.1 root/password
+# 基本功能
 
-[![LICENSE](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square&label=LICENSE)](https://github.com/P3TERX/Actions-OpenWrt/blob/master/LICENSE)
-![GitHub Stars](https://img.shields.io/github/stars/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Stars&logo=github)
-![GitHub Forks](https://img.shields.io/github/forks/P3TERX/Actions-OpenWrt.svg?style=flat-square&label=Forks&logo=github)
+**ipv6**
 
-A template for building OpenWrt with GitHub Actions
+**argone、neobird 主题**
 
-## Usage
+# 插件
 
-- Click the [Use this template](https://github.com/P3TERX/Actions-OpenWrt/generate) button to create a new repository.
-- Generate `.config` files using [Lean's OpenWrt](https://github.com/coolsnowwolf/lede) source code. ( You can change it through environment variables in the workflow file. )
-- Push `.config` file to the GitHub repository.
-- Select `Build OpenWrt` on the Actions page.
-- Click the `Run workflow` button.
-- When the build is complete, click the `Artifacts` button in the upper right corner of the Actions page to download the binaries.
+luci-app-adbyby-plus  广告屏蔽大师Plus+
 
-## Tips
+uci-app-adguardhome  AdGuard Home
 
-- It may take a long time to create a `.config` file and build the OpenWrt firmware. Thus, before create repository to build your own firmware, you may check out if others have already built it which meet your needs by simply [search `Actions-Openwrt` in GitHub](https://github.com/search?q=Actions-openwrt).
-- Add some meta info of your built firmware (such as firmware architecture and installed packages) to your repository introduction, this will save others' time.
+luci-app-aria2  aria2下载工具
+
+luci-app-eqos  IP限速
+
+luci-app-fileassistant 文件助手
+
+luci-app-lucky  Lucky大吉(端口转发、动态域名、反代)
+
+luci-app-mosdns  DNS分流
+
+luci-app-nfs  nfs共享
+
+luci-app-onliner  在线用户
+
+luci-app-passwall2（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall2
+
+luci-app-serverchan  微信推送
+
+luci-app-softethervpn  SoftEther VPN
+
+luci-app-ssr-plus（Hysteria、NaiveProxy、V2ray、Xray、SingBox） 酸酸乳+
+
+luci-app-ttyd 终端
+
+CONFIG_PACKAGE_luci-app-vsftpd is not set  取消FTP服务
+
+luci-app-wrtbwmon  实时流量监控
+
+luci-app-zerotier  内网穿透
 
 ## Credits
 
