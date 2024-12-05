@@ -5,7 +5,7 @@
 
 **ipv6**
 
-**argone、neobird 主题**
+**argon主题**
 
 # 插件
 
@@ -23,13 +23,13 @@ luci-app-lucky  Lucky大吉(端口转发、动态域名、反代)
 
 luci-app-mosdns  DNS分流
 
-luci-app-nfs  nfs共享
+luci-app-openclash   openclash
 
-luci-app-onliner  在线用户
-
-luci-app-passwall2（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall2
+luci-app-passwall（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall
 
 luci-app-serverchan  微信推送
+
+luci-app-smartdns  smartdns
 
 luci-app-softethervpn  SoftEther VPN
 
