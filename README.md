@@ -11,8 +11,6 @@
 
 luci-app-adbyby-plus  广告屏蔽大师Plus+
 
-uci-app-adguardhome  AdGuard Home
-
 luci-app-aria2  aria2下载工具
 
 luci-app-eqos  IP限速
