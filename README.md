@@ -1,9 +1,13 @@
-**J1900-OPENWRT固件**
+**X86-OPENWRT固件**
 
 访问：192.168.1.1 root/password
 # 基本功能
 
 **ipv6**
+
+**docker**
+
+**istore (如果安装插件时出现卡在Downloading。。。.ipk,需要使用代理)**
 
 **argon主题**
 
@@ -11,7 +15,13 @@
 
 luci-app-adbyby-plus  广告屏蔽大师Plus+
 
+uci-app-adguardhome  AdGuard Home
+
 luci-app-aria2  aria2下载工具
+
+luci-app-diskman  磁盘管理
+
+luci-app-dockerman  docker管理
 
 luci-app-eqos  IP限速
 
@@ -21,9 +31,13 @@ luci-app-lucky  Lucky大吉(端口转发、动态域名、反代)
 
 luci-app-mosdns  DNS分流
 
-luci-app-openclash   openclash
+luci-app-mwan3helper 多wan分流助手
 
-luci-app-passwall（Haproxy、Hysteria、NaiveProxy、V2ray、Xray、SingBox） passwall
+luci-app-onliner  在线用户
+
+luci-app-openclash  openclash
+
+luci-app-passwall （Haproxy、Hysteria、V2ray、Xray、SingBox） passwall
 
 luci-app-serverchan  微信推送
 
@@ -31,7 +45,9 @@ luci-app-smartdns  smartdns
 
 luci-app-softethervpn  SoftEther VPN
 
-luci-app-ssr-plus（Hysteria、NaiveProxy、V2ray、Xray、SingBox） 酸酸乳+
+luci-app-ssr-plus（Hysteria、V2ray、Xray、SingBox） 酸酸乳+
+
+luci-app-store  Istore应用商店
 
 luci-app-ttyd 终端
 
